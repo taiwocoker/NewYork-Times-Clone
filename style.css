@@ -1,14 +1,30 @@
 * {
   margin: 0;
   padding: 0;
-
 }
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+ a {
+    cursor: pointer;
+ }
+
+
 body {
   margin: auto;
   width: 1100px;
 }
-.container {
-  display: flex;
-  flex-direction: row;
 
+nav {
+    display: flex;
+    flex-direction: column;
 }
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+}
+
