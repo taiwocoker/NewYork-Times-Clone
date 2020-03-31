@@ -13,7 +13,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 5%;
+  border-bottom: 1px solid grey;
 }
 
 .nav-links li {
@@ -21,3 +22,18 @@ nav {
   padding: 0px 20px;
 }
 
+.nav-links li a {
+  color: #0d0d0d;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-buttons button {
+  margin: 10px;
+  padding: 13px;
+  background-color: #004466;
+  color: #fff;
+  border-radius: 5px;
+}
