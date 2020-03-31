@@ -7,6 +7,12 @@
 li {
   list-style: none;
   cursor: pointer;
+  color: #0d0d0d;
+}
+
+a {
+  color: #0d0d0d;
+  text-decoration: none;
 }
 
 nav {
@@ -54,19 +60,32 @@ header img{
 
 /* Section 1 */
 
-#section1 h3 {
-  text-align: center;
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#date {
+.section1-content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 10px 5%;
-  width: 50%;
+}
+
+ #section1 h3 {
+  margin-left: 300px;
+  padding: 20px;
+} 
+
+ #date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 270px;
 }
 
 .icons li {
   display: inline-block;
-  padding: 0px 20px;
-}
+  margin-right: 80px;
+} 
