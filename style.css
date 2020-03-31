@@ -76,7 +76,7 @@ header img{
  #section1 h3 {
   margin-left: 300px;
   padding: 20px;
-} 
+}
 
  #date {
   display: flex;
@@ -88,4 +88,10 @@ header img{
 .icons li {
   display: inline-block;
   margin-right: 80px;
-} 
+}
+#icons-left {
+  float: right;
+}
+#tttt{
+  text-align: center;
+}
