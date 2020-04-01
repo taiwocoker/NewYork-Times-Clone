@@ -198,13 +198,26 @@ aside {
 
 .section5 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* justify-items: end;
-  align-items: center; */
+  grid-template-columns: 2.5fr 1.5fr;
+  justify-items: end;
+  align-items: center;
 }
 
-/* .section5-image {
-  display: flex;
-  flex-direction: row;
+ .section5-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 90%;
+  padding-top: 50px;
+} 
 
-} */
+#editors {
+  grid-template-columns: 1fr;
+  width: 65%;
+  margin-right: 20px;
+  justify-self: center;
+}
+ 
+#editors p {
+  padding: 15px;
+}
