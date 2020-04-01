@@ -209,7 +209,7 @@ aside {
   align-items: center;
   width: 90%;
   padding-top: 50px;
-} 
+}
 
 #editors {
   grid-template-columns: 1fr;
@@ -217,7 +217,17 @@ aside {
   margin-right: 20px;
   justify-self: center;
 }
- 
+
 #editors p {
   padding: 15px;
+}
+
+#footer-section {
+  display: flex;
+
+
+}
+#footer-section ul{
+ display: flex;
+
 }
