@@ -195,3 +195,16 @@ aside {
 .section3 img{
   width: 70%;
 }
+
+.section5 {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  /* justify-items: end;
+  align-items: center; */
+}
+
+/* .section5-image {
+  display: flex;
+  flex-direction: row;
+  
+} */
