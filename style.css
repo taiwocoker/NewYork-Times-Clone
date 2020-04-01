@@ -8,16 +8,18 @@ li {
   list-style: none;
   cursor: pointer;
   color: #0d0d0d;
+  cursor: pointer;
 }
 
 a {
   color: #0d0d0d;
   text-decoration: none;
+  cursor: pointer;
 }
 p{
-  line-height: 1.4;
-  font-size: 16px;
-  font-family: 'Roboto';
+  line-height: 1.7;
+  font-size: 18px;
+  font-family: 'Roboto' sans-serif;
 }
 
 nav {
@@ -118,4 +120,59 @@ header img {
 display: flex;
 justify-content: flex-end;
 
+}
+
+/* Section 2 */
+
+.section2 {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  justify-items: end;
+  /* flex-direction: row;
+  justify-content: flex-end; */
+}
+
+.section2-content {
+  width: 50%;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin-left: 400px; */
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+aside {
+  width: 75%;
+  /* margin: 0 
+  border: 1px solid black; */
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  padding: 10px;
+} 
+
+.img img {
+  height: 6rem;
+}
+
+.img p {
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.img a:hover {
+  text-decoration: underline;
 }
