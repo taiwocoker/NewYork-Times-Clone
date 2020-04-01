@@ -198,7 +198,7 @@ aside {
 
 .section5 {
   display: grid;
-  grid-template-columns: 2.5fr 1.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   /* justify-items: end;
   align-items: center; */
 }
@@ -206,5 +206,5 @@ aside {
 /* .section5-image {
   display: flex;
   flex-direction: row;
-  
+
 } */
