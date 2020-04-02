@@ -6,13 +6,12 @@
 
 li {
   list-style: none;
-  cursor: pointer;
   color: #0d0d0d;
   cursor: pointer;
 }
 
 a {
-  color: #0d0d0d;
+  color: #333;
   text-decoration: none;
   cursor: pointer;
 }
@@ -211,6 +210,10 @@ aside {
   padding-top: 50px;
 }
 
+.section6 {
+  margin-left: 70px;
+}
+
 #editors {
   grid-template-columns: 1fr;
   width: 65%;
@@ -237,6 +240,12 @@ aside {
   justify-content: space-between;
 }
 
+.image-newyork hr {
+  width: 100%;
+  border: 3px double #888;
+  margin: 20px;
+}
+
 .image-newyork #link1 {
   margin-top: 20px;
 }
@@ -252,6 +261,7 @@ aside {
   display: grid;
   grid-column: 2/9;
   grid-auto-flow: column;
+  width: 90%;
 }
 
 .footer-section .footer-ul {
@@ -273,14 +283,50 @@ aside {
 .subscribe {
   display: flex;
   flex-direction: column;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+}
+
+.subscribe #vectorlogo img {
+  width: 15px;
 }
 
 .subscribe-line {
   width: 180px;
   color: #888;
+  margin: 5px;
+}
+
+.subscribe-list {
+  padding: 5px;
 }
 
 a.subscribe-list {
   font-size: 10px;
+}
+
+.last {
+  grid-column: 2/9;
+}
+
+.last-line {
+  width: 100%;
+  color: #888;
+}
+
+.last ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 85%;
+}
+
+.last ul li a {
+  color: #888;
+  font-size: 12px;
+}
+
+.last ul li a:hover {
+  text-decoration: underline;
 }
