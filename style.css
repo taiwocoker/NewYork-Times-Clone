@@ -10,15 +10,19 @@ li {
   cursor: pointer;
 }
 
-#text1 a, .img p a ,.footer-section .footer-ul a, #editors p a {
+.img p a,
+.footer-section .footer-ul a,
+#text1 a,
+#editors p a {
   color: #333;
   text-decoration: none;
   cursor: pointer;
 }
-p{
+
+p {
   line-height: 1.7;
   font-size: 18px;
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -31,7 +35,7 @@ nav {
 
 .nav-links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .nav-links li a {
@@ -45,21 +49,24 @@ nav {
 .nav-buttons button {
   margin: 10px;
   padding: 13px;
-  background-color: #004466;
+  background-color: #046;
   color: #fff;
   border-radius: 5px;
 }
 
-header{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-header h1, h3 {
+
+header h1,
+h3 {
   margin-left: -150px;
   margin-top: 40px;
 }
+
 header img {
   width: 1000px;
 }
@@ -73,12 +80,11 @@ header img {
   border: 1px solid black;
   width: 30%;
   margin: auto;
-
 }
-.section1 #ttt{
-display: flex;
-justify-content: flex-end;
 
+.section1 #ttt {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Section 2 */
@@ -88,6 +94,7 @@ justify-content: flex-end;
   grid-template-columns: 2.5fr 1.5fr;
   justify-items: end;
   align-items: center;
+
   /* flex-direction: row;
   justify-content: flex-end; */
 }
@@ -110,13 +117,16 @@ justify-content: flex-end;
   align-items: center;
   padding: 30px;
 }
-.create hr{
+
+.create hr {
   width: 20%;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
+
 aside {
   width: 75%;
+
   /* margin: 0
   border: 1px solid black; */
 }
@@ -149,14 +159,14 @@ aside {
   margin-left: 28rem;
 }
 
-.section4{
+.section4 {
   display: grid;
   grid-template-columns: 2.5fr 1.5fr;
   justify-items: end;
   align-items: center;
-
 }
-.section3 img{
+
+.section3 img {
   width: 70%;
 }
 
@@ -167,14 +177,15 @@ aside {
   align-items: center;
 }
 
- .section5-1 {
+.section5-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   width: 90%;
   padding-top: 50px;
 }
-.section5-image p{
+
+.section5-image p {
   font-size: 15px;
   width: 15rem;
 }
@@ -192,7 +203,6 @@ aside {
 
 #editors p {
   padding: 15px;
-
 }
 
 .image-newyork {
@@ -301,45 +311,49 @@ a.subscribe-list {
   text-decoration: underline;
 }
 
-#text1{
+#text1 {
   margin-left: -31rem;
   margin-bottom: 2rem;
 }
 
-#text2{
+#text2 {
   margin-right: 7rem;
 }
+
 .incons-inside i {
   margin: 1rem;
   cursor: pointer;
 }
-#text3{
+
+#text3 {
   margin-bottom: 2rem;
 }
 
 #lastbuton {
   margin-right: 8rem;
-  background-color: #004466;
+  background-color: #046;
   padding-left: 1rem;
   padding-right: 1rem;
   color: #fff;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  border-radius: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
+
 #lasttext1 {
   font-size: 10px;
 }
 
-figcaption{
+figcaption {
   font-size: 15px;
   margin-bottom: 1rem;
 }
-iframe{
+
+iframe {
   margin-top: 2rem;
 }
 
-#lastpic{
+#lastpic {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
