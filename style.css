@@ -10,6 +10,27 @@ li {
   cursor: pointer;
 }
 
+.nav-links li a {
+  color: #0d0d0d;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.last ul li a {
+  color: #888;
+  font-size: 12px;
+}
+
+.img a:hover {
+  text-decoration: underline;
+}
+
+.last ul li a:hover {
+  text-decoration: underline;
+}
+
 .img p a,
 .footer-section .footer-ul a,
 #text1 a,
@@ -36,14 +57,6 @@ nav {
 .nav-links li {
   display: inline-block;
   padding: 0 20px;
-}
-
-.nav-links li a {
-  color: #0d0d0d;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 .nav-buttons button {
@@ -87,27 +100,15 @@ header img {
   justify-content: flex-end;
 }
 
-/* Section 2 */
-
 .section2 {
   display: grid;
   grid-template-columns: 2.5fr 1.5fr;
   justify-items: end;
   align-items: center;
-
-  /* flex-direction: row;
-  justify-content: flex-end; */
 }
 
 .section2-content {
   width: 50%;
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 40%;
-  margin-left: 400px; */
 }
 
 .create {
@@ -126,9 +127,6 @@ header img {
 
 aside {
   width: 75%;
-
-  /* margin: 0
-  border: 1px solid black; */
 }
 
 .img {
@@ -148,9 +146,6 @@ aside {
   margin-left: 10px;
 }
 
-.img a:hover {
-  text-decoration: underline;
-}
 
 .section3 {
   display: flex;
@@ -199,6 +194,11 @@ aside {
   width: 65%;
   margin-right: 20px;
   justify-self: center;
+}
+
+.footer-section p {
+  font-size: 13px;
+  font-weight: 600;
 }
 
 #editors p {
@@ -250,11 +250,6 @@ aside {
   grid-auto-rows: min-content;
 }
 
-.footer-section p {
-  font-size: 13px;
-  font-weight: 600;
-}
-
 .sub {
   border-left: 1px solid #888;
   padding-left: 10px;
@@ -300,15 +295,6 @@ a.subscribe-list {
   margin-top: 20px;
   padding-bottom: 10px;
   width: 85%;
-}
-
-.last ul li a {
-  color: #888;
-  font-size: 12px;
-}
-
-.last ul li a:hover {
-  text-decoration: underline;
 }
 
 #text1 {
