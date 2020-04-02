@@ -23,15 +23,18 @@ li {
   text-decoration: none;
   cursor: pointer;
 }
+
 .last ul li a {
   color: #888;
   font-size: 12px;
 }
+
 .footer-section .footer-ul a {
   color: #333;
   text-decoration: none;
   cursor: pointer;
 }
+
 .img a:hover {
   text-decoration: underline;
 }
