@@ -222,12 +222,65 @@ aside {
   padding: 15px;
 }
 
-#footer-section {
-  display: flex;
-
-
+.image-newyork {
+  display: grid;
+  grid-column: 2/9;
 }
-#footer-section ul{
- display: flex;
 
+.image-newyork .image {
+  display: grid;
+  grid-column: 1/2;
+}
+
+.image-newyork .go-to {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-newyork #link1 {
+  margin-top: 20px;
+}
+
+.image-newyork .go-to #link2 {
+  text-decoration: none;
+  font-size: 8px;
+  color: #666;
+  align-self: center;
+}
+
+.footer-section {
+  display: grid;
+  grid-column: 2/9;
+  grid-auto-flow: column;
+}
+
+.footer-section .footer-ul {
+  display: grid;
+  justify-content: start;
+  grid-auto-rows: min-content;
+}
+
+.footer-section p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.sub {
+  border-left: 1px solid #888;
+  padding-left: 10px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.subscribe-line {
+  width: 180px;
+  color: #888;
+}
+
+a.subscribe-list {
+  font-size: 10px;
 }
