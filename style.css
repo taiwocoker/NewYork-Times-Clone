@@ -10,7 +10,7 @@ li {
   cursor: pointer;
 }
 
-a {
+#text1 a, .img p a ,.footer-section .footer-ul a, #editors p a {
   color: #333;
   text-decoration: none;
   cursor: pointer;
@@ -107,9 +107,14 @@ justify-content: flex-end;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   padding: 30px;
 }
-
+.create hr{
+  width: 20%;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
 aside {
   width: 75%;
   /* margin: 0
@@ -324,4 +329,17 @@ a.subscribe-list {
 }
 #lasttext1 {
   font-size: 10px;
+}
+
+figcaption{
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+iframe{
+  margin-top: 2rem;
+}
+
+#lastpic{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
