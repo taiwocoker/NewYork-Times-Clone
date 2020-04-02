@@ -1,4 +1,4 @@
-# Mint-Sign-Up-Page
+# NewYork Time's clone
 A clone of the NewYork Time's Page
 ![A Snapshot of the NewYork Time's page](/images/snapshot.PNG)
 
@@ -47,4 +47,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is MIT licensed.
-

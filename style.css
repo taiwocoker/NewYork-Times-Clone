@@ -18,11 +18,20 @@ li {
   font-weight: bold;
 }
 
+.img p a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
 .last ul li a {
   color: #888;
   font-size: 12px;
 }
-
+.footer-section .footer-ul a {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
 .img a:hover {
   text-decoration: underline;
 }
@@ -31,8 +40,6 @@ li {
   text-decoration: underline;
 }
 
-.img p a,
-.footer-section .footer-ul a,
 #text1 a,
 #editors p a {
   color: #333;
@@ -145,7 +152,6 @@ aside {
   font-weight: 100;
   margin-left: 10px;
 }
-
 
 .section3 {
   display: flex;
