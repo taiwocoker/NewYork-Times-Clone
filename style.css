@@ -341,7 +341,7 @@ a.subscribe-list {
 
 figcaption {
   font-size: 15px;
-  margin-bottom: 1rem;
+  margin-bottom: frem;
 }
 
 iframe {
@@ -351,4 +351,23 @@ iframe {
 #lastpic {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.modified-images {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 445px;
+  width: 80%;
+
+}
+.modified-images .p1 p {
+  font-size: 13px;
+  margin-top: 160px;
+}
+.modified-images .p2 p {
+  font-size: 13px;
 }
