@@ -267,25 +267,13 @@ aside {
   font-size: 14px;
   font-weight: 600;
 }
-/* .section5 {
+.section5 {
   display: grid;
   grid-template-columns: 2.5fr 1.5fr;
   justify-items: end;
   align-items: center;
 }
 
-.section5-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  width: 90%;
-  padding-top: 50px;
-}
-
-.section5-image p {
-  font-size: 15px;
-  width: 15rem;
-} */
 
 .section6 {
   margin-left: 70px;
