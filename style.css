@@ -176,6 +176,99 @@ aside {
 
 .section5 {
   display: grid;
+  grid-template-columns: auto auto;
+}
+
+.section5 a h2 {
+  font-size: 14px;
+}
+
+.section5 .section5-1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+  flex-wrap: wrap;
+}
+
+.section5 .section5-1 .section5-1-item {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.section5 .section5-1 .section5-1-item .section5-image {
+  width: 252px;
+  height: 150px;
+}
+
+.section5 .section5-1 .section5-1-item .section5-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.section5 .section5-1 .section5-1-item .researcher {
+  font-size: 9px;
+  float: right;
+}
+
+.section5 .section5-1 .section5-1-item .subp1 {
+  clear: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section5 .section5-1 .section5-1-item .subp2 {
+  float: left;
+  font-size: 9px;
+}
+
+.section5 .section5-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 800px;
+}
+
+.section5 .section5-2 .section5-1-item {
+  width: 250px;
+  margin-right: 10px;
+}
+
+.section5 .section5-2 .section5-1-item .section5-image {
+  width: 251px;
+  height: 150px;
+}
+
+.section5 .section5-2 .section5-1-item .section5-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.section5 .section5-2 .section5-1-item .researcher {
+  font-size: 9px;
+  float: right;
+}
+
+.section5 .section5-2 .section5-1-item .subp1 {
+  clear: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.section5 .section5-2 .section5-1-item .subp2 {
+  float: left;
+  font-size: 9px;
+}
+
+.most-popular {
+  float: right;
+  width: 325px;
+}
+
+#popular-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* .section5 {
+  display: grid;
   grid-template-columns: 2.5fr 1.5fr;
   justify-items: end;
   align-items: center;
@@ -192,7 +285,7 @@ aside {
 .section5-image p {
   font-size: 15px;
   width: 15rem;
-}
+} */
 
 .section6 {
   margin-left: 70px;
