@@ -269,9 +269,32 @@ aside {
 }
 .section5 {
   display: grid;
-  grid-template-columns: 2.5fr 1.5fr;
+  grid-template-columns: 2.5fr .5fr;
+  grid-column-gap: 1rem;
   justify-items: end;
-  align-items: center;
+  justify-content: center;
+  margin-right: 10rem;
+}
+.section5-pictures {
+  display: grid;
+  grid-template-columns: 17rem 17rem 17rem;
+  grid-column-gap: 0px;
+  grid-row-gap: -10px;
+
+}
+.section5-pic2 {
+  display: grid;
+  grid-template-columns: 17rem 17rem 17rem;
+  grid-column-gap: 10px;
+  grid-row-gap: -10px;
+  border-top: 1px solid black;
+  padding-top: 1rem;
+
+}
+
+.section5-1-item {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -374,8 +397,9 @@ a.subscribe-list {
 }
 
 .last-line {
-  width: 100%;
   color: #888;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .last ul {
@@ -417,7 +441,8 @@ a.subscribe-list {
 }
 
 #lasttext1 {
-  font-size: 10px;
+  font-size: 10px;<hr>
+    <a href="#"><h2>More in Space and Astronomy</h2></a>
 }
 
 figcaption {
@@ -441,6 +466,7 @@ iframe {
   background-size: 100% 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2rem;
   grid-template-rows: 445px;
   width: 80%;
 
@@ -451,4 +477,9 @@ iframe {
 }
 .modified-images .p2 p {
   font-size: 13px;
+}
+
+.footer-section {
+  width: 80%;
+  margin: auto;
 }
