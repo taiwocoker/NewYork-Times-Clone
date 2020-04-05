@@ -3,6 +3,25 @@
   padding: 0;
   margin: 0;
 }
+/* Use a media query to add a break point at 800px: */
+ @media screen and (max-width:800px) {
+   body {
+     width: 50%
+     margin: auto;
+     background-color: lightblue;
+
+   }
+  img {
+    width: 100%;
+  }
+  header{
+    width: 30em;
+  }
+  header img{
+
+    width: 1rem;
+  }
+}
 
 li {
   list-style: none;
@@ -354,7 +373,6 @@ aside {
   display: grid;
   grid-column: 2/9;
   grid-auto-flow: column;
-  width: 90%;
 }
 
 .footer-section .footer-ul {
