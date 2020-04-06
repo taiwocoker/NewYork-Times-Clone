@@ -193,6 +193,10 @@ aside {
   grid-template-columns: auto auto;
 }
 
+.section5 .most-popular {
+  padding-bottom: 5rem;
+}
+
 .section5 a h2 {
   font-size: 14px;
 }
@@ -399,7 +403,7 @@ aside {
 }
 
 .subscribe-list {
-  padding: 5px;
+  padding: 3px;
 }
 
 a.subscribe-list {
@@ -455,8 +459,7 @@ a.subscribe-list {
 }
 
 #lasttext1 {
-  font-size: 10px;<hr>
-    <a href="#"><h2>More in Space and Astronomy</h2></a>
+  font-size: 10px;
 }
 
 figcaption {
